@@ -19,7 +19,7 @@ st.sidebar.title('App Mode')
 
 
 app_mode = st.sidebar.selectbox('Choose the App Mode',
-                                ['About App','Run on Image','Run on Video','Run on WebCam'])
+                                ['About App','Run on Image','Run on Video'])
 
 if app_mode == 'About App':
     st.subheader("About")
