@@ -11,7 +11,7 @@ def load_model():
     model = torch.hub.load('ultralytics/yolov5','custom',path="weights/last.pt",force_reload=True)
     return model
 
-demo_img = "fire.9.png"
+demo_img = "Fire-Extinguisher-Safety.jpg"
 demo_video = "Fire_Video.mp4"
 
 st.title('Fire Extinguisher')
