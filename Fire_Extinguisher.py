@@ -12,7 +12,7 @@ def load_model():
     return model
 
 demo_img = "Fire-Extinguisher-Safety.jpg"
-demo_video = "Fire_Video.mp4"
+demo_video = "Fire-Extinguisher.mp4"
 
 st.title('Fire Extinguisher')
 st.sidebar.title('App Mode')
