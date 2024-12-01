@@ -14,7 +14,7 @@ def load_model():
 demo_img = "fire.9.png"
 demo_video = "Fire_Video.mp4"
 
-st.title('Fire Detection')
+st.title('Fire Extinguisher')
 st.sidebar.title('App Mode')
 
 
@@ -23,7 +23,7 @@ app_mode = st.sidebar.selectbox('Choose the App Mode',
 
 if app_mode == 'About App':
     st.subheader("About")
-    st.markdown("<h5>This is the Fire Detection App created with custom trained models using YoloV5</h5>",unsafe_allow_html=True)
+    st.markdown("<h5>This is the Fire Extinguisher App created with custom trained models using YoloV5</h5>",unsafe_allow_html=True)
     
     st.markdown("- <h5>Select the App Mode in the SideBar</h5>",unsafe_allow_html=True)
     st.image("Images/first_1.png")
