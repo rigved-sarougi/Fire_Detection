@@ -48,7 +48,8 @@ if app_mode == 'About App':
 - Streamlit
 - YoloV5
 ## 🔗 Links
-[![twitter](https://img.shields.io/badge/Github-1DA1F2?style=for-the-badge&logo=github&logoColor=white)](https://github.com/AntroSafin)
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/rigved-sarougi)
+[![Github](https://img.shields.io/badge/Github-1DA1F2?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Rigvedsarougi)
 """)
     
 
