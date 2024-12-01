@@ -28,7 +28,6 @@ if app_mode == 'About App':
                 ## Features
 - Detect on Image
 - Detect on Videos
-- Live Detection
 ## Tech Stack
 - Python
 - PyTorch
