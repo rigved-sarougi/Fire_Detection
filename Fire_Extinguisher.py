@@ -24,18 +24,6 @@ app_mode = st.sidebar.selectbox('Choose the App Mode',
 if app_mode == 'About App':
     st.subheader("About")
     st.markdown("<h5>This is the Fire Extinguisher App created with custom trained models using YoloV5</h5>",unsafe_allow_html=True)
-    
-    st.markdown("- <h5>Select the App Mode in the SideBar</h5>",unsafe_allow_html=True)
-    st.image("Images/first_1.png")
-    st.markdown("- <h5>Upload the Image and Detect the Fires in Images</h5>",unsafe_allow_html=True)
-    st.image("Images/second_2.png")
-    st.markdown("- <h5>Upload the Video and Detect the fires in Videos</h5>",unsafe_allow_html=True)
-    st.image("Images/third_3.png")
-    st.markdown("- <h5>Live Detection</h5>",unsafe_allow_html=True)
-    st.image("Images/fourth_4.png")
-    st.markdown("- <h5>Click Start to start the camera</h5>",unsafe_allow_html=True)
-    st.markdown("- <h5>Click Stop to stop the camera</h5>",unsafe_allow_html=True)
-    
     st.markdown("""
                 ## Features
 - Detect on Image
